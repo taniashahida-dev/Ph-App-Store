@@ -8,6 +8,7 @@ import InstalledApps from './components/InstalledApps/InstalledApps'
 import Dasgboard from './components/Dashboard/Dasgboard'
 import AllApps from './components/AllApps/AllApps'
 import Layout from './components/Layout/Layout'
+import ErrorPage from './components/ErrorPage/ErrorPage'
 
 const router = createBrowserRouter([
   {
@@ -31,6 +32,8 @@ const router = createBrowserRouter([
        }
      
     ]
+    ,
+    errorElement: <ErrorPage/>
   },
  
 ])
