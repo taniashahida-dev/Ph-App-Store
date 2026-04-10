@@ -1,6 +1,6 @@
 import React from "react";
-import { Link } from "react-router-dom";
-import errorImg from "../assets/404.png"; // তোমার image path ঠিক করো
+import { Link } from "react-router";
+import errorImg from "../../assets/images/error-404.png"; // তোমার image path ঠিক করো
 
 const ErrorPage = () => {
   return (
